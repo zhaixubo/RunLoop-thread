@@ -17,6 +17,9 @@
 		58D96D9E2A06246F00D42F5F /* RunLoop_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96D9D2A06246F00D42F5F /* RunLoop_________Tests.m */; };
 		58D96DA82A06246F00D42F5F /* RunLoop_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96DA72A06246F00D42F5F /* RunLoop_________UITests.m */; };
 		58D96DAA2A06246F00D42F5F /* RunLoop_________UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96DA92A06246F00D42F5F /* RunLoop_________UITestsLaunchTests.m */; };
+		58D96DB82A06248200D42F5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96DB72A06248200D42F5F /* FirstViewController.m */; };
+		58D96DBB2A06248C00D42F5F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96DBA2A06248C00D42F5F /* SecondViewController.m */; };
+		58D96DC42A06384F00D42F5F /* NSThread+NewDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D96DC32A06384F00D42F5F /* NSThread+NewDealloc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		58D96DA32A06246F00D42F5F /* RunLoop常驻线程和线程保活UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunLoop常驻线程和线程保活UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D96DA72A06246F00D42F5F /* RunLoop_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RunLoop_________UITests.m"; sourceTree = "<group>"; };
 		58D96DA92A06246F00D42F5F /* RunLoop_________UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RunLoop_________UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		58D96DB62A06248200D42F5F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		58D96DB72A06248200D42F5F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		58D96DB92A06248C00D42F5F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		58D96DBA2A06248C00D42F5F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		58D96DC22A06384F00D42F5F /* NSThread+NewDealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSThread+NewDealloc.h"; sourceTree = "<group>"; };
+		58D96DC32A06384F00D42F5F /* NSThread+NewDealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSThread+NewDealloc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				58D96D852A06246D00D42F5F /* SceneDelegate.m */,
 				58D96D872A06246D00D42F5F /* ViewController.h */,
 				58D96D882A06246D00D42F5F /* ViewController.m */,
+				58D96DC22A06384F00D42F5F /* NSThread+NewDealloc.h */,
+				58D96DC32A06384F00D42F5F /* NSThread+NewDealloc.m */,
+				58D96DB62A06248200D42F5F /* FirstViewController.h */,
+				58D96DB72A06248200D42F5F /* FirstViewController.m */,
+				58D96DB92A06248C00D42F5F /* SecondViewController.h */,
+				58D96DBA2A06248C00D42F5F /* SecondViewController.m */,
 				58D96D8A2A06246D00D42F5F /* Main.storyboard */,
 				58D96D8D2A06246F00D42F5F /* Assets.xcassets */,
 				58D96D8F2A06246F00D42F5F /* LaunchScreen.storyboard */,
@@ -266,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D96DBB2A06248C00D42F5F /* SecondViewController.m in Sources */,
 				58D96D892A06246D00D42F5F /* ViewController.m in Sources */,
 				58D96D832A06246D00D42F5F /* AppDelegate.m in Sources */,
+				58D96DB82A06248200D42F5F /* FirstViewController.m in Sources */,
 				58D96D942A06246F00D42F5F /* main.m in Sources */,
 				58D96D862A06246D00D42F5F /* SceneDelegate.m in Sources */,
+				58D96DC42A06384F00D42F5F /* NSThread+NewDealloc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
